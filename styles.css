@@ -11,7 +11,7 @@
   --secondary-bgcolor: #2f303a;
   --add-color: #f5f4fa;
   /* others */
-  --white-cl: #ffffff;
+  --white-clr: #ffffff;
 }
 body {
   font-family: var(--main-font), sans-serif;
@@ -34,28 +34,16 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-textcolor);
-  background-color: var(--white-cl);
+  background-color: var(--white-clr);
 }
 .header-link:hover,
 .header-link:focus {
   color: var(--brand-color);
-}
-/* banner main */
-.banner-main {
-  font-family: var(--main-font);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--white-cl);
-  background-color: var(--secondary-bgcolor);
-}
-/* buttons */
+} /* buttons */
 .btn {
   cursor: pointer;
   background-color: var(--brand-color);
+  color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
@@ -66,6 +54,21 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
+.header-contact {
+  color: var(--main-textcolor);
+}
+.banner-main {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-clr);
+  background-color: var(--secondary-bgcolor);
+}
+
 .header-main {
   font-weight: 700;
   font-size: 36px;
@@ -87,13 +90,13 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--header-textcolor);
 }
 .seconadry-txt {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  color: #757575;
+  color: var(--main-textcolor);
 }
 .pfolio-header {
   font-weight: 700;
@@ -101,4 +104,34 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--header-textcolor);
+}
+.section-ourteam {
+  background-color: var(--add-color);
+}
+/* footer */
+footer {
+  background-color: var(--secondary-bgcolor);
+}
+.footer-linkadres {
+  color: var(--white-clr);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.footer-linkadres:hover,
+.footer-linkadres:focus {
+  color: var(--brand-color);
+}
+.footer-linkcont {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.footer-linkcont:hover,
+.footer-linkcont:focus {
+  color: var(--brand-color);
+}
+.adress {
+  font-style: normal;
 }
