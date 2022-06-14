@@ -27,8 +27,14 @@ body {
   list-style: none;
 }
 .current-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--brand-color);
+  background-color: var(--white-clr);
 }
+
 /* common styles end */
 /* header section */
 .header-link {
@@ -42,6 +48,12 @@ body {
 .header-link:hover,
 .header-link:focus {
   color: var(--brand-color);
+}
+.clr-logo-header {
+  color: var(--header-textcolor);
+}
+.clr-logo-footer {
+  color: var(--white-clr);
 }
 .btn {
   cursor: pointer;
@@ -80,7 +92,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-
 .header-main {
   font-weight: 700;
   font-size: 36px;
@@ -133,7 +144,6 @@ footer {
 .footer-linkadres:focus {
   color: var(--brand-color);
 }
-
 .footer-linkcont {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
